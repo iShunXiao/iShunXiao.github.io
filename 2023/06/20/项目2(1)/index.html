@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="http://example.com/2023/06/15/git/"/>
+  <link rel="canonical" href="http://example.com/2023/06/20/项目2(1)/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,19 +33,19 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>git - Hexo</title>
+  <title>Kafka集群中部署Eagle运维监控 - Hexo</title>
   <meta name="keywords" content="null">
   <meta desc name="description" content="Hexo - John Doe - Hexo">
   
 <meta property="og:type" content="article">
-<meta property="og:title" content="git">
-<meta property="og:url" content="http://example.com/2023/06/15/git/index.html">
+<meta property="og:title" content="Kafka集群中部署Eagle运维监控">
+<meta property="og:url" content="http://example.com/2023/06/20/%E9%A1%B9%E7%9B%AE2(1)/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Git安装进入git官网https:&#x2F;&#x2F;git-scm.com&#x2F;进行下载选择适配的操作系统然后开始安装，安装完成后手动重启电脑1.初始化仓库1创建Git版本库创建完毕仓库,此时我们创建的文件夹下有一个.git 文件已经生成了。  2.添加文件1在仓库中新建一个文件，此时我们看到文件夹上多了一个加号。提交文件到本地文件  3.\选中文件，右键git提交4.修改文件，与再次提交文件5.文件状态讲解6.">
+<meta property="og:description" content="Kafka集群中部署Eagle运维监控1．项目来源及背景123456kafka 自身并没有继承监控管理系统, 因此对 kafka 的监控管理比较不便, 好在有大量的第三方监控管理系统来使用,常见的有:Kafka Eagle Kafka Manager(雅虎开源的 Kafka 集群管理器) kafka Web Console 还有 JMX 接口自开发监控管理系统其中，Kafka Eagle最为流行，">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2023-06-15T14:08:47.747Z">
-<meta property="article:modified_time" content="2023-06-15T14:08:47.747Z">
+<meta property="article:published_time" content="2023-06-20T14:11:48.785Z">
+<meta property="article:modified_time" content="2023-06-20T13:55:52.342Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -2517,7 +2517,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class=''>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/15/git/">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/20/项目2(1)/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Hexo">
   </span>
@@ -2538,7 +2538,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        git
+        Kafka集群中部署Eagle运维监控
       </h1>
       <div class='new-meta-box'>
         
@@ -2559,10 +2559,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-06-15T22:08:47+08:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-06-20T22:11:48+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>发布于：Jun 15, 2023</p>
+    <p>发布于：Jun 20, 2023</p>
   </a>
 </div>
 
@@ -2585,11 +2585,20 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <h1 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h1><h2 id="进入git官网https-git-scm-com-进行下载"><a href="#进入git官网https-git-scm-com-进行下载" class="headerlink" title="进入git官网https://git-scm.com/进行下载"></a>进入git官网<a target="_blank" rel="noopener" href="https://git-scm.com/%E8%BF%9B%E8%A1%8C%E4%B8%8B%E8%BD%BD">https://git-scm.com/进行下载</a></h2><h2 id="选择适配的操作系统然后开始安装，安装完成后手动重启电脑"><a href="#选择适配的操作系统然后开始安装，安装完成后手动重启电脑" class="headerlink" title="选择适配的操作系统然后开始安装，安装完成后手动重启电脑"></a>选择适配的操作系统然后开始安装，安装完成后手动重启电脑</h2><h3 id="1-初始化仓库"><a href="#1-初始化仓库" class="headerlink" title="1.初始化仓库"></a>1.初始化仓库</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">创建Git版本库创建完毕仓库,此时我们创建的文件夹下有一个.git 文件已经生成了。</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-添加文件"><a href="#2-添加文件" class="headerlink" title="2.添加文件"></a>2.添加文件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在仓库中新建一个文件，此时我们看到文件夹上多了一个加号。提交文件到本地文件</span><br></pre></td></tr></table></figure>
-
-<p>3.\选中文件，右键git提交<br><img src="/../images/21.jpg" class="lazyload" data-srcset="/../images/21.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 21"><br>4.修改文件，与再次提交文件<br><img src="/../images/22.jpg" class="lazyload" data-srcset="/../images/22.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 22"><br>5.文件状态讲解<br>6.修改文件<br><img src="/../images/23.jpg" class="lazyload" data-srcset="/../images/23.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 23"><br>7.回退至历史版本<br><img src="/../images/24.jpg" class="lazyload" data-srcset="/../images/24.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 24"><br>8.创建分支 主分支(master)<br><img src="/../images/25.jpg" class="lazyload" data-srcset="/../images/25.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 25"><br>9.查看分支<br><img src="/../images/26.jpg" class="lazyload" data-srcset="/../images/26.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 26"><br>10.切换分支<br><img src="/../images/27.jpg" class="lazyload" data-srcset="/../images/27.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 27"><br>11.分支的合并与删除<br><img src="/../images/28.jpg" class="lazyload" data-srcset="/../images/28.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 28"><br>12.删除分支<br><img src="/../images/29.jpg" class="lazyload" data-srcset="/../images/29.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 29"></p>
+    <h1 id="Kafka集群中部署Eagle运维监控"><a href="#Kafka集群中部署Eagle运维监控" class="headerlink" title="Kafka集群中部署Eagle运维监控"></a>Kafka集群中部署Eagle运维监控</h1><h2 id="1．项目来源及背景"><a href="#1．项目来源及背景" class="headerlink" title="1．项目来源及背景"></a>1．项目来源及背景</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">kafka 自身并没有继承监控管理系统, 因此对 kafka 的监控管理比较不便, 好在有大量的第三方监控管理系统来使用,常见的有:</span><br><span class="line">Kafka Eagle </span><br><span class="line">Kafka Manager(雅虎开源的 Kafka 集群管理器) </span><br><span class="line">kafka Web Console </span><br><span class="line">还有 JMX 接口自开发监控管理系统</span><br><span class="line">其中，Kafka Eagle最为流行，本项目则希望同学们可以成功部署Kafka Eagle，完成对kafka集群的基本监控。</span><br></pre></td></tr></table></figure>
+<p><img src="/../2/1.jpg" class="lazyload" data-srcset="/../2/1.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 1"></p>
+<h2 id="2-系统需求分析"><a href="#2-系统需求分析" class="headerlink" title="2.系统需求分析"></a>2.系统需求分析</h2><p>官网：<a target="_blank" rel="noopener" href="https://www.kafka-eagle.org/">https://www.kafka-eagle.org/</a></p>
+<h3 id="（1）安装包下载地址"><a href="#（1）安装包下载地址" class="headerlink" title="（1）安装包下载地址:"></a>（1）安装包下载地址:</h3><p><a target="_blank" rel="noopener" href="https://github.com/smartloli/kafka-eagle-bin/">https://github.com/smartloli/kafka-eagle-bin/</a></p>
+<h3 id="（2）上传安装包，解压"><a href="#（2）上传安装包，解压" class="headerlink" title="（2）上传安装包，解压"></a>（2）上传安装包，解压</h3><p><img src="/../2/2.png" class="lazyload" data-srcset="/../2/2.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 2"></p>
+<h3 id="（3）配置环境变量-JAVA-HOME-和-KE-HOME"><a href="#（3）配置环境变量-JAVA-HOME-和-KE-HOME" class="headerlink" title="（3）配置环境变量:JAVA_HOME 和 KE_HOME"></a>（3）配置环境变量:JAVA_HOME 和 KE_HOME</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/profile </span><br><span class="line">export JAVA_HOME=/usr/java/jdk1.8</span><br><span class="line">export PATH=$PATH:$JAVA_HOME/bin</span><br><span class="line">export KE_HOME=/export/server/kafka-eagle</span><br><span class="line">export PATH=$PATH:$KE_HOME/bin</span><br></pre></td></tr></table></figure>
+<p><img src="/../2/3.png" class="lazyload" data-srcset="/../2/3.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 3"></p>
+<h3 id="4-配置-KafkaEagle"><a href="#4-配置-KafkaEagle" class="headerlink" title="(4)配置 KafkaEagle"></a>(4)配置 KafkaEagle</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /export/server/kafka-eagle/conf </span><br><span class="line">vi system-config.properties</span><br></pre></td></tr></table></figure>
+<h3 id="需要更改的地方："><a href="#需要更改的地方：" class="headerlink" title="需要更改的地方："></a>需要更改的地方：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">kafka.eagle.zk.cluster.alias=cluster1</span><br><span class="line">cluster1.zk.list=node1:2181,node2:2181,node3:2181</span><br><span class="line">cluster1.kafka.eagle.broker.size=3</span><br><span class="line"></span><br><span class="line">kafka.eagle.url=jdbc:sqlite:/export/data/db/ke.db</span><br></pre></td></tr></table></figure>
+<p><img src="/../2/4.png" class="lazyload" data-srcset="/../2/4.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 4"></p>
+<h3 id="启动前需要手动创建-x2F-export-x2F-data-x2F-db目录"><a href="#启动前需要手动创建-x2F-export-x2F-data-x2F-db目录" class="headerlink" title="启动前需要手动创建&#x2F;export&#x2F;data&#x2F;db目录"></a>启动前需要手动创建&#x2F;export&#x2F;data&#x2F;db目录</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /export/data/db</span><br></pre></td></tr></table></figure>
+<p><img src="/../2/5.png" class="lazyload" data-srcset="/../2/5.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 5"></p>
+<h3 id="5-启动Eagle"><a href="#5-启动Eagle" class="headerlink" title="(5)启动Eagle"></a>(5)启动Eagle</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/export/server/kafka-eagle/bin/ke.sh start</span><br></pre></td></tr></table></figure>
+<p><img src="/../2/6.png" class="lazyload" data-srcset="/../2/6.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图 6"></p>
 
   </div>
   
@@ -2614,10 +2623,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-06-15T22:08:47+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-06-20T21:55:52+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：Jun 15, 2023</p>
+    <p>更新于：Jun 20, 2023</p>
   </a>
 </div>
 
@@ -2636,7 +2645,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/06/15/git/&title=git - Hexo&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/06/20/%E9%A1%B9%E7%9B%AE2(1)/&title=Kafka集群中部署Eagle运维监控 - Hexo&summary="
           
           >
           
@@ -2648,7 +2657,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/06/15/git/&title=git - Hexo&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/06/20/%E9%A1%B9%E7%9B%AE2(1)/&title=Kafka集群中部署Eagle运维监控 - Hexo&summary="
           
           >
           
@@ -2660,7 +2669,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/06/15/git/&title=git - Hexo&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/06/20/%E9%A1%B9%E7%9B%AE2(1)/&title=Kafka集群中部署Eagle运维监控 - Hexo&summary="
           
           >
           
@@ -2693,11 +2702,17 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
-        <a class='prev' href='/2023/06/15/dockers/'>
-          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>docker</p>
-          <p class='content'>安装docker1. 在安装docker之前，先初始化机器环境，如果之前安装过旧版本的docker，应该先使用命令进行卸载。（我这里之前没有安装过旧版本的docker，就不进行写在操作了）2. ...</p>
+        <a class='prev' href='/2023/06/20/%E4%BD%BF%E7%94%A8SpringBoot%E6%90%AD%E5%BB%BA%E5%9F%BA%E7%A1%80%E7%9A%84Kafka%E6%B5%81%E5%A4%84%E7%90%86%E5%B9%B3%E5%8F%B0(1)/'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>使用SpringBoot搭建基础的Kafka流处理平台</p>
+          <p class='content'>项目来源及背景 Kafka是目前主流的流处理平台，同时作为消息队列家族的一员，其高吞吐性作为很多场景下的主流选择。同时作为流处理平台，在大数据开发中，作为黏合剂串联各个系统。在本项目中，可以发布...</p>
         </a>
       
+      
+        <a class='next' href='/2023/06/20/Flume/'>
+          <p class='title'>Flume<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>Flume1、下载flume的gz包1Flume下载页面：http://flume.apache.org/download.html
+2.Flume下载页面：http://flume.apach...</p>
+        </a>
       
     </div>
   
@@ -2712,7 +2727,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/2023/06/15/git/index.html#comments">
+      <meta itemprop="discussionUrl" content="/2023/06/20/%E9%A1%B9%E7%9B%AE2(1)/index.html#comments">
     </span>
     <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
@@ -2754,7 +2769,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E5%85%A5git%E5%AE%98%E7%BD%91https-git-scm-com-%E8%BF%9B%E8%A1%8C%E4%B8%8B%E8%BD%BD"><span class="toc-text">进入git官网https:&#x2F;&#x2F;git-scm.com&#x2F;进行下载</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%89%E6%8B%A9%E9%80%82%E9%85%8D%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%84%B6%E5%90%8E%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85%EF%BC%8C%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90%E5%90%8E%E6%89%8B%E5%8A%A8%E9%87%8D%E5%90%AF%E7%94%B5%E8%84%91"><span class="toc-text">选择适配的操作系统然后开始安装，安装完成后手动重启电脑</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BB%93%E5%BA%93"><span class="toc-text">1.初始化仓库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%B7%BB%E5%8A%A0%E6%96%87%E4%BB%B6"><span class="toc-text">2.添加文件</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%EF%BC%8E%E9%A1%B9%E7%9B%AE%E6%9D%A5%E6%BA%90%E5%8F%8A%E8%83%8C%E6%99%AF"><span class="toc-text">1．项目来源及背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E7%B3%BB%E7%BB%9F%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90"><span class="toc-text">2.系统需求分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E5%AE%89%E8%A3%85%E5%8C%85%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80"><span class="toc-text">（1）安装包下载地址:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E4%B8%8A%E4%BC%A0%E5%AE%89%E8%A3%85%E5%8C%85%EF%BC%8C%E8%A7%A3%E5%8E%8B"><span class="toc-text">（2）上传安装包，解压</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F-JAVA-HOME-%E5%92%8C-KE-HOME"><span class="toc-text">（3）配置环境变量:JAVA_HOME 和 KE_HOME</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E9%85%8D%E7%BD%AE-KafkaEagle"><span class="toc-text">(4)配置 KafkaEagle</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9C%80%E8%A6%81%E6%9B%B4%E6%94%B9%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%9A"><span class="toc-text">需要更改的地方：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8%E5%89%8D%E9%9C%80%E8%A6%81%E6%89%8B%E5%8A%A8%E5%88%9B%E5%BB%BA-x2F-export-x2F-data-x2F-db%E7%9B%AE%E5%BD%95"><span class="toc-text">启动前需要手动创建&#x2F;export&#x2F;data&#x2F;db目录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E5%90%AF%E5%8A%A8Eagle"><span class="toc-text">(5)启动Eagle</span></a></li></ol></li></ol>
     </div>
   </section>
 
@@ -3324,7 +3339,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Hexo","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Hexo"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/06/15/git/","name":"git"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Hexo","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"Hexo","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"git","description":"","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/06/15/git/"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Hexo","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/06/15/git/","wordCount":0,"datePublished":"2023-06-15T14:08:47.747Z","dateModified":"2023-06-15T14:08:47.747Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Hexo","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Hexo"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/06/20/项目2(1)/","name":"Kafka集群中部署Eagle运维监控"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Hexo","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"Hexo","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Kafka集群中部署Eagle运维监控","description":"","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/06/20/%E9%A1%B9%E7%9B%AE2(1)/"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Hexo","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/06/20/%E9%A1%B9%E7%9B%AE2(1)/","wordCount":0,"datePublished":"2023-06-20T14:11:48.785Z","dateModified":"2023-06-20T13:55:52.342Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
